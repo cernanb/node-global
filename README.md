@@ -153,7 +153,7 @@ The result will signify that the `var _user` did not create a global reference, 
 
 ```
 { admin: false } undefined undefined
-{ admin: false }  { admin: false }
+{ admin: false }  { admin: false }  { admin: false }
 ```
 
 In other words,
@@ -184,3 +184,5 @@ The conclusion: In Node, if you omit `var`, the global reference will be created
 ---
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/node-global' title='node-global'>node-global</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/node-global'>Node Global Object</a> on Learn.co and start learning to code for free.</p>
